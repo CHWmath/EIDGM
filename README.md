@@ -4,7 +4,6 @@ This repository contains the code for the paper : Estimation of System Parameter
 
 This repository provides the implementation of the Emulator-Informed Deep Generative Model (EIDGM) and the scripts required to reproduce the experiments presented in the paper.
 
----
 
 ## Visualization of trajectory and parameter estimates
 
@@ -18,7 +17,6 @@ The following notebooks are included:
 
 Each notebook loads the trained models and reproduces the trajectory and parameter distribution plots reported in the paper.
 
----
 
 ## Setup instructions
 
@@ -35,7 +33,6 @@ Then install the required Python packages:
 pip install -r requirements.txt
 ```
 
----
 
 ## Running EIDGM training
 
