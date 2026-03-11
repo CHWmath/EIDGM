@@ -72,7 +72,7 @@ EIDGM/save/figures
 ```
 
 
-### Data source
+## Data source
 
 The real datasets, amyloid-β 40 (Aβ40) and amyloid-β 42 (Aβ42), used in this study were obtained from the AD Knowledge Portal (https://adknowledgeportal.synapse.org/
 ).
