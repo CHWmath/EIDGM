@@ -65,9 +65,11 @@ Set this option to `None` to train the model on synthetic data.
 - `Abeta40`
 - `Abeta42`
 
-During training, intermediate trajectory reconstructions and parameter estimation results are saved in
+During training, intermediate trajectory reconstructions and parameter estimation results are saved in:
 
 ```
 EIDGM/save/figures
 ```
-.
+
+The real datasets, amyloid-β 40 (Aβ40) and amyloid-β 42 (Aβ42), used in this study were obtained from the AD Knowledge Portal (https://adknowledgeportal.synapse.org/
+).
