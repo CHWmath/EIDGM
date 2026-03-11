@@ -59,7 +59,7 @@ Set this option to 'False' to train EIDGM, which uses the emulator as a HyperPIN
 - `True`
 - `False` (default)
 
-### Dataset type
+### Dataset
 Set this option to `None` to train the model on synthetic data.
 - `None` (default)
 - `Abeta40`
