@@ -125,9 +125,6 @@ class Trainer:
     
     # get dataset for hyperPINN
     def get_data_pinn(self, N_p=0, save_sc=False):
-        for i in range(self.num_p):
-            self.p_range[i][0] *= 0.9 
-            self.p_range[i][1] *= 1.1
         if N_p==0:
             N_p = self.Np
         # get time grids
@@ -337,6 +334,10 @@ class Trainer:
     
     ############################################## for training networks ################################################
     def load_pinn(self, load_params=True, train_nets=False):
+        # slightly expand the range
+        for i in range(self.num_p):
+            self.p_range[i][0] *= 0.9 
+            self.p_range[i][1] *= 1.1
         if self.deeponet:
             branch_features = self.num_p + self.num_eq  #
             trunk_features = 1  
